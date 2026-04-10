@@ -49,7 +49,6 @@ export default function ContactPage() {
                 </p>
 
                 <div className="space-y-4 text-sm">
-                
                   <p> +91 6358043693</p>
                   <p>✉ salesmdo@revotons.com</p>
                   <p> Surat, India</p>
@@ -61,8 +60,9 @@ export default function ContactPage() {
 
             <div className="p-10">
               <form className="space-y-6">
+                
+                {/* Name + Email */}
                 <div className="grid md:grid-cols-2 gap-6">
-
                   <div>
                     <label className="text-md font-semibold text-gray-700">
                       Your Name
@@ -83,7 +83,30 @@ export default function ContactPage() {
                       className="w-full border-b border-gray-300 bg-transparent py-2 outline-none focus:border-[#134e4a]"
                     />
                   </div>
+                </div>
 
+                {/* Mobile + City */}
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <label className="text-md font-semibold text-gray-700">
+                      Mobile Number
+                    </label>
+                    <input
+                      type="tel"
+                      required
+                      className="w-full border-b border-gray-300 bg-transparent py-2 outline-none focus:border-[#134e4a]"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="text-md font-semibold text-gray-700">
+                      City
+                    </label>
+                    <input
+                      required
+                      className="w-full border-b border-gray-300 bg-transparent py-2 outline-none focus:border-[#134e4a]"
+                    />
+                  </div>
                 </div>
 
                 <div>
@@ -119,7 +142,6 @@ export default function ContactPage() {
         </section>
 
       </div>
-
     </Layout>
   );
 }

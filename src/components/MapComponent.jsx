@@ -42,7 +42,7 @@ function MapComponent() {
     <div className="flex flex-col md:flex-row gap-4">
 
       {/* 🗺️ MAP */}
-      <div className="w-full md:w-3/4">
+      <div className="w-full md:w-3/4 relative z-0">
         <MapContainer
           center={[22.5, 78.9]}
           zoom={5}
@@ -75,7 +75,7 @@ function MapComponent() {
         </MapContainer>
       </div>
 
-  
+      {/* 📘 LEGEND */}
       <div className="w-full md:w-1/4 bg-white p-4 rounded-xl shadow">
         <h2 className="text-lg font-bold mb-3">Legend</h2>
 

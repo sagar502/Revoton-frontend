@@ -151,7 +151,8 @@ export default function About() {
       </h3>
 
       <p className="text-gray-600 text-sm leading-relaxed">
-        We supply high-performance alloy steels including EN19, EN24, EN31 and more,
+    
+        We supply high-performance alloy steels including Bearing Steel ,Alloy Steel Bars,Case Hardening Steel,Tool Steel,Speciality Steel and more
         backed by a global sourcing network and certified quality assurance.
       </p>
 
