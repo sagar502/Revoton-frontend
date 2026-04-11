@@ -1,0 +1,24 @@
+<svg width="100%" viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hex icon background -->
+  <polygon points="44,10 80,10 98,50 80,90 44,90 26,50" fill="#0f1c2e" stroke="#5A8FC4" stroke-width="1.5" style="fill:rgb(15, 28, 46);stroke:rgb(90, 143, 196);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Inner hex accent -->
+  <polygon points="48,20 76,20 90,50 76,80 48,80 34,50" fill="none" stroke="#5A8FC4" stroke-width="0.8" style="fill:none;stroke:rgb(90, 143, 196);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- I-beam shape -->
+  <rect x="52" y="32" width="16" height="4" fill="#C0C8D4" rx="1" style="fill:rgb(192, 200, 212);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="52" y="64" width="16" height="4" fill="#C0C8D4" rx="1" style="fill:rgb(192, 200, 212);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="58" y="36" width="4" height="28" fill="#C0C8D4" rx="1" style="fill:rgb(192, 200, 212);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Diagonal slash accent -->
+  <line x1="68" y1="34" x2="78" y2="66" stroke="#5A8FC4" stroke-width="1.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(90, 143, 196);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- REVOTON text -->
+  <text x="112" y="55" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="38" letter-spacing="3" fill="#1a1a2e" style="fill:rgb(232, 237, 243);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, Arial, sans-serif;font-size:38px;font-weight:900;text-anchor:start;dominant-baseline:auto">REVOTON</text>
+
+  <!-- STEEL text -->
+  <text x="115" y="78" font-family="Arial, sans-serif" font-weight="700" font-size="19" letter-spacing="9" fill="#5A8FC4" style="fill:rgb(90, 143, 196);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:19px;font-weight:700;text-anchor:start;dominant-baseline:auto">STEEL</text>
+
+  
+</svg>

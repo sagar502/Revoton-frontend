@@ -1,0 +1,7 @@
+<svg width="160" height="50" viewBox="0 0 160 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="22,5 40,5 49,25 40,45 22,45 13,25" fill="#0f1c2e" stroke="#5A8FC4" stroke-width="1"/>
+  <polygon points="24,10 38,10 45,25 38,40 24,40 17,25" fill="none" stroke="#5A8FC4" stroke-width="0.6"/>
+  <text x="31" y="32" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="22" fill="#C0C8D4" text-anchor="middle">R</text>
+  <text x="58" y="23" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="13" letter-spacing="1.5" fill="#0f1c2e">REVOTON</text>
+  <text x="59" y="36" font-family="Arial, sans-serif" font-weight="700" font-size="9" letter-spacing="4" fill="#5A8FC4">STEEL</text>
+</svg>
