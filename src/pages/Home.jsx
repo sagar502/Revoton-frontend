@@ -88,7 +88,7 @@ const Home = () => {
     className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-10 md:mb-14"
     style={{ fontFamily: "Playfair Display, serif" }}
   >
-    Our Authority in Numbers CHECK PIPELINE IS WORKING OR NOT
+    Our Authority in Numbers
   </h2>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 max-w-7xl mx-auto">
@@ -112,7 +112,7 @@ const Home = () => {
 
         <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
           {[
-            { title: "On Time Delivery", img: "/images/orders.jpeg" },
+            { title: "On Time Delivery 123", img: "/images/orders.jpeg" },
             { title: "Cut to Order", img: "/images/cutt.jpeg" },
             { title: "Quality Assurance", img: "/images/qualities.jpeg" },
             { title: "Inventory Management", img: "/images/in.jpg" },
