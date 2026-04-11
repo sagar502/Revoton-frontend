@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import MapComponent from "../components/mapComponent";
+import MapComponent from "../components/MapComponent";
 
 const headingStyle = { fontFamily: "Playfair Display, serif" };
 

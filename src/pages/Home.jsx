@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import { motion } from "framer-motion";
-import MapComponent from "../components/mapComponent";
+import MapComponent from "../components/MapComponent";
 import { useNavigate } from "react-router-dom";
 const container = {
   hidden: {},
