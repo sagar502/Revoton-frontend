@@ -74,25 +74,25 @@ const Navbar = () => {
         .nav-container {
           max-width: 1280px;
           margin: 0 auto;
-          padding: 0 28px;
-          height: 60px;
+          padding: 0 20px;
+          height: 80px;
           display: flex;
           align-items: center;
           justify-content: space-between;
-          gap: 24px;
+          gap: 2px;
         }
 
         /* LOGO */
         .nav-logo {
           display: flex;
           align-items: center;
-          gap: 8px;
+          gap: 2px;
           text-decoration: none;
           flex-shrink: 0;
         }
 
         .nav-logo img {
-          height: 52px;
+          height: 60px;
           width: auto;
           object-fit: contain;
           transition: transform 0.3s ease, filter 0.3s ease;
@@ -378,7 +378,7 @@ const Navbar = () => {
         <div className="nav-inner">
           <div className="nav-container">
             <Link to="/" className="nav-logo">
-              <img src="/images/R.svg" alt="Revoton Steel" />
+              <img src="/images/logo.jpeg" alt="Revoton Steel" />
             </Link>
 
             <nav ref={ref}>
