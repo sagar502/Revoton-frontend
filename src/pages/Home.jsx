@@ -112,7 +112,7 @@ const Home = () => {
 
         <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
           {[
-            { title: "On Time Delivery 123", img: "/images/orders.jpeg" },
+            { title: "On Time Delivery 12345", img: "/images/orders.jpeg" },
             { title: "Cut to Order", img: "/images/cutt.jpeg" },
             { title: "Quality Assurance", img: "/images/qualities.jpeg" },
             { title: "Inventory Management", img: "/images/in.jpg" },

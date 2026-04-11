@@ -29,7 +29,8 @@ jobs:
             git pull origin main
             npm install
             npm run build
-            pm2 restart revoton || pm2 start serve --name "revoton" -- -s dist -l 4173
+            pm2 delete revoton || true
+            pm2 start serve --name "revoton" -- -s dist -l 4173 --no-clipboard
             pm2 save
             sudo systemctl restart nginx
           EOF
