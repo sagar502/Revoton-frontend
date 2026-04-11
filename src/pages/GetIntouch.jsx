@@ -65,7 +65,7 @@ export default function ContactPage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="text-md font-semibold text-gray-700">
-                      Your Name
+                      Your Good Name
                     </label>
                     <input
                       required
@@ -75,7 +75,7 @@ export default function ContactPage() {
 
                   <div>
                     <label className="text-md font-semibold text-gray-700">
-                      Your Email
+                      Your Good Email
                     </label>
                     <input
                       type="email"
