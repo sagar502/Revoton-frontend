@@ -24,7 +24,7 @@ export default function ContactPage() {
             className="text-4xl md:text-5xl text-black mb-4"
             style={{ fontFamily: "Playfair Display, serif" }}
           >
-            Get In Touch
+            Get In Touch DEMO SAMPLE
           </h1>
 
           <p className="text-gray-600 max-w-2xl mx-auto">
