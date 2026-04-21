@@ -252,7 +252,7 @@ export default function About() {
     className="text-4xl md:text-5xl mb-6 text-[#1f2937]"
     style={{ fontFamily: "Playfair Display, serif" }}
   >
-    Quality AND Certifications
+    Quality & Certifications
   </h2>
 
   <p className="text-gray-500 max-w-2xl mx-auto mb-16 text-lg">
