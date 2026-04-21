@@ -105,3 +105,11 @@ body {
     transform: translateX(-30%);
   }
 }
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #cb7c7c;
+  margin-top: 4px;
+}

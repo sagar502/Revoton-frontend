@@ -1652,7 +1652,7 @@ export default function GradesPage() {
   return (
     <Layout>
       <div
-        className="bg-[#f5f7f8] min-h-screen pt-8 pb-20 px-6 md:px-20"
+        className="bg-[#f5f7f8] min-h-screen pt-12 pb-20 px-6 md:px-20"
         style={{ fontFamily: "Inter, sans-serif" }}
       >
         <div className="text-center mb-6">

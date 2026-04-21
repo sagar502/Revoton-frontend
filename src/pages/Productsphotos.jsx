@@ -26,7 +26,7 @@ export default function IndustrialGallery() {
 
           <Card img="images/allo.avif" title="Alloy Steel Bars" desc="High-performance alloy steel bars engineered for durability." />
           <Card img="images/cnc1.jpg" title="CNC Machining" desc="Precision machining delivering micron-level accuracy." />
-          <Card img="images/forging.jpg" title="Forging Operations" desc="Extreme forging processes for high-strength components." />
+          <Card img="images/fog.webp" title="Forging Operations" desc="Extreme forging processes for high-strength components." />
           <Card img="images/manfacture.jpg" title="Heavy Manufacturing" desc="Large-scale industrial production systems." />
           <Card img="images/processing.jpg" title="Steel Processing" desc="Modern steel production." />
           <Card img="images/fabrication.jpg" title="Metal Fabrication" desc="Advanced fabrication process." />

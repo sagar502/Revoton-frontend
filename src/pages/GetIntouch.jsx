@@ -9,7 +9,7 @@ export default function ContactPage() {
     <Layout> 
       <div className="bg-[#f5f5f5] min-h-screen">
 
-        <section className="py-10 px-6 pt-3 bg-white text-center">
+        <section className="py-10 px-6 pt-12 bg-white text-center">
           <h2 className="text-4xl mb-8" style={headingStyle}>
             Our Presence
           </h2>
