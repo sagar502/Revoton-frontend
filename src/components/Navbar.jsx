@@ -432,8 +432,13 @@ const Navbar = () => {
                       <div className="dropdown-divider" />
                       <Link to="/shapes"     onClick={() => setOpen(null)} className="dropdown-item">📐 Shapes</Link>
                       <div className="dropdown-divider" />
-                      <Link to="/calculator" onClick={() => setOpen(null)} className="dropdown-item">🧮 Calculator</Link>
-                      <div className="dropdown-divider" />
+                    <Link 
+  to="/calculator" 
+  onClick={() => setOpen(null)} 
+  className="dropdown-item"
+>
+  🧮 Calculators
+</Link>
                       <Link to="/cutting"    onClick={() => setOpen(null)} className="dropdown-item">✂️ Cutting Tips</Link>
                     </div>
                   )}

@@ -9,6 +9,7 @@ import GetInTouch from "./pages/GetIntouch";
 import Photos from "./pages/Productsphotos"; 
 import Industries from "./pages/Industries";
 import GradeDetail from "./pages/GradeDetail";
+import Calculators from "./pages/Calculator";
 const Page = ({ name }) => {
   return (
     <div className="pt-32 text-center text-3xl font-semibold">
@@ -29,7 +30,7 @@ function App() {
         <Route path="/photos" element={<Photos />} /> 
         <Route path="/shapes" element={<Shapes />} />
         <Route path="/applications" element={<Page name="Applications" />} />
-        <Route path="/calculator" element={<Page name="Weight Calculator" />} />
+        <Route path="/calculator" element={<Calculators />} />
         <Route path="/cutting" element={<Page name="Cutting Guides" />} />
         <Route path="/blogs" element={<MediaBlogs />} />
         <Route path="/getintouch" element={<GetInTouch />} />
