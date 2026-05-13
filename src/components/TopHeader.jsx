@@ -7,7 +7,7 @@ const TopHeader = () => {
 
       <div className="flex items-center px-6 py-2 gap-16">
         <div className="whitespace-nowrap">
-          +91 9328295446
+          +91 6358043693
         </div>
         <div className="hidden md:block whitespace-nowrap text-gray-300">
           sales@revoton.com

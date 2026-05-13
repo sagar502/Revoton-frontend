@@ -1,72 +1,143 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Layout from "../components/Layout";
-const headingStyle = { fontFamily: "Playfair Display, serif" };
-const bodyStyle = { fontFamily: "Inter, sans-serif" };
+
+const headingStyle = {
+  fontFamily: "Playfair Display, serif",
+};
+
+const bodyStyle = {
+  fontFamily: "Inter, sans-serif",
+};
 
 export default function IndustrialGallery() {
+  const galleryItems = [
+ 
+    {
+      img: "https://images.unsplash.com/photo-1581092921461-eab62e97a780?q=80&w=1200&auto=format&fit=crop",
+      title: "CNC Machining",
+      desc: "Precision machining delivering micron-level accuracy.",
+    },
+    {
+      img: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop",
+      title: "Forging Operations",
+      desc: "Extreme forging processes for high-strength components.",
+    },
+   
+   
+    {
+      img: "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop",
+      title: "Metal Fabrication",
+      desc: "Advanced fabrication process with modern technology.",
+    },
+    {
+      img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop",
+      title: "Industrial Plant",
+      desc: "Large industrial manufacturing units and plants.",
+    },
+    {
+      img: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1200&auto=format&fit=crop",
+      title: "Industrial Machinery",
+      desc: "Heavy-duty industrial machinery and automation.",
+    },
+    {
+      img: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=80&w=1200&auto=format&fit=crop",
+      title: "Manufacturing",
+      desc: "Modern production excellence and systems.",
+    },
+    {
+      img: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200&auto=format&fit=crop",
+      title: "Industrial Design",
+      desc: "Contemporary industrial production design.",
+    },
+    {
+      img: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=1200&auto=format&fit=crop",
+      title: "Manufacturing Units",
+      desc: "Reliable industrial systems and operations.",
+    },
+    {
+      img: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
+      title: "Industrial Tech",
+      desc: "Modern industrial innovation and technology.",
+    },
+  ];
+
   return (
     <Layout>
-  
-      <section className="bg-white px-6 md:px-20 py-12" style={bodyStyle}>
+      <section
+        className="bg-[#f8fafc] px-6 md:px-20 py-14"
+        style={bodyStyle}
+      >
+        {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="mb-20"
+          transition={{ duration: 0.5 }}
+          className="mb-16"
         >
-          <h2 className="text-5xl text-[#1f2937] mb-4" style={headingStyle}>
+          <h2
+            className="text-4xl md:text-5xl text-[#1f2937] mb-4"
+            style={headingStyle}
+          >
             — Our Gallery
           </h2>
 
-          <p className="text-gray-500 max-w-xl text-lg">
-            A refined visual collection of alloy steel, precision machining, forging, and industrial excellence.
+          <p className="text-gray-500 max-w-2xl text-lg leading-relaxed">
+            A refined visual collection of alloy steel, precision machining,
+            forging, and industrial excellence.
           </p>
         </motion.div>
-        <div className="grid md:grid-cols-3 gap-10">
 
-          <Card img="images/allo.avif" title="Alloy Steel Bars" desc="High-performance alloy steel bars engineered for durability." />
-          <Card img="images/cnc1.jpg" title="CNC Machining" desc="Precision machining delivering micron-level accuracy." />
-          <Card img="images/fog.webp" title="Forging Operations" desc="Extreme forging processes for high-strength components." />
-          <Card img="images/manfacture.jpg" title="Heavy Manufacturing" desc="Large-scale industrial production systems." />
-          <Card img="images/processing.jpg" title="Steel Processing" desc="Modern steel production." />
-          <Card img="images/fabrication.jpg" title="Metal Fabrication" desc="Advanced fabrication process." />
-          <Card img="images/industrialplant.jpg" title="Industrial Plant" desc="Large manufacturing units." />
-          <Card img="images/cnc2.jpg" title="Machinery" desc="Heavy industrial machines." />
-          <Card img="images/facuturing.jpg" title="Manufacturing" desc="Production excellence." />
-          <Card img="images/steeelll.jpg" title="Industrial Design" desc="Modern production." />
-          <Card img="images/manu.jpg" title="Manufacturing Units" desc="Reliable systems." />
-          <Card img="images/wh.jpeg" title="Industrial Tech" desc="Modern innovation." />
-
+        {/* Gallery */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {galleryItems.map((item, index) => (
+            <Card
+              key={index}
+              img={item.img}
+              title={item.title}
+              desc={item.desc}
+            />
+          ))}
         </div>
-        </section>
-</Layout>
-  
+      </section>
+    </Layout>
   );
 }
 
 const Card = ({ img, title, desc }) => (
   <motion.div
-    initial={{ opacity: 0, y: 50 }}
+    initial={{ opacity: 0, y: 40 }}
     whileInView={{ opacity: 1, y: 0 }}
-    whileHover={{ y: -6 }}
+    whileHover={{ y: -8 }}
     transition={{ duration: 0.4 }}
-    className="group cursor-pointer"
+    className="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500"
   >
-
-    <div className="rounded-2xl overflow-hidden mb-4">
+    {/* Image */}
+    <div className="overflow-hidden">
       <img
         src={img}
-        className="w-full h-[180px] object-cover group-hover:scale-105 transition duration-500"
+        alt={title}
+        loading="lazy"
+        onError={(e) => {
+          e.target.src =
+            "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop";
+        }}
+        className="w-full h-[250px] object-cover group-hover:scale-105 transition duration-700"
       />
     </div>
 
-    <h3 className="text-xl text-[#1f2937]" style={headingStyle}>
-      {title}
-    </h3>
+    {/* Content */}
+    <div className="p-6">
+      <h3
+        className="text-2xl text-[#111827] mb-2"
+        style={headingStyle}
+      >
+        {title}
+      </h3>
 
-    <p className="text-gray-500 text-sm mt-1">
-      {desc}
-    </p>
-
+      <p className="text-gray-500 text-sm leading-relaxed">
+        {desc}
+      </p>
+    </div>
   </motion.div>
 );
